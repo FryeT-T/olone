@@ -1,0 +1,119 @@
+{
+  "group_id": null,
+  "states": [
+    {
+      "character": {
+        "id": "269f909f-6cf7-4f35-928e-d4a2937bb33d",
+        "name": "a man in grey pants",
+        "prompt": "a man in grey pants in boots with unzipped brown jacket with red and black striped shirt underneath it, with medium long hair",
+        "size": {
+          "width": 104,
+          "height": 104
+        },
+        "template_id": "mannequin",
+        "directions": 8,
+        "view": "low top-down",
+        "created_at": "2026-05-22T19:22:29.790746+00:00"
+      },
+      "folder": "a_man_in_grey_pants",
+      "frames": {
+        "rotations": {
+          "south": "a_man_in_grey_pants/rotations/south.png",
+          "south-east": "a_man_in_grey_pants/rotations/south-east.png",
+          "east": "a_man_in_grey_pants/rotations/east.png",
+          "north-east": "a_man_in_grey_pants/rotations/north-east.png",
+          "north": "a_man_in_grey_pants/rotations/north.png",
+          "north-west": "a_man_in_grey_pants/rotations/north-west.png",
+          "west": "a_man_in_grey_pants/rotations/west.png",
+          "south-west": "a_man_in_grey_pants/rotations/south-west.png"
+        },
+        "animations": {
+          "animation-599ae5a1": {
+            "south-east": [
+              "a_man_in_grey_pants/animations/animation-599ae5a1/south-east/frame_000.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/south-east/frame_001.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/south-east/frame_002.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/south-east/frame_003.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/south-east/frame_004.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/south-east/frame_005.png"
+            ],
+            "south-west": [
+              "a_man_in_grey_pants/animations/animation-599ae5a1/south-west/frame_000.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/south-west/frame_001.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/south-west/frame_002.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/south-west/frame_003.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/south-west/frame_004.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/south-west/frame_005.png"
+            ],
+            "west": [
+              "a_man_in_grey_pants/animations/animation-599ae5a1/west/frame_000.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/west/frame_001.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/west/frame_002.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/west/frame_003.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/west/frame_004.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/west/frame_005.png"
+            ],
+            "south-bf457154": [
+              "a_man_in_grey_pants/animations/animation-599ae5a1/south-bf457154/frame_000.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/south-bf457154/frame_001.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/south-bf457154/frame_002.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/south-bf457154/frame_003.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/south-bf457154/frame_004.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/south-bf457154/frame_005.png"
+            ],
+            "north-a8b247f8": [
+              "a_man_in_grey_pants/animations/animation-599ae5a1/north-a8b247f8/frame_000.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/north-a8b247f8/frame_001.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/north-a8b247f8/frame_002.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/north-a8b247f8/frame_003.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/north-a8b247f8/frame_004.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/north-a8b247f8/frame_005.png"
+            ],
+            "east": [
+              "a_man_in_grey_pants/animations/animation-599ae5a1/east/frame_000.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/east/frame_001.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/east/frame_002.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/east/frame_003.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/east/frame_004.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/east/frame_005.png"
+            ],
+            "south-303847cc": [
+              "a_man_in_grey_pants/animations/animation-599ae5a1/south-303847cc/frame_000.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/south-303847cc/frame_001.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/south-303847cc/frame_002.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/south-303847cc/frame_003.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/south-303847cc/frame_004.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/south-303847cc/frame_005.png"
+            ],
+            "north-east": [
+              "a_man_in_grey_pants/animations/animation-599ae5a1/north-east/frame_000.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/north-east/frame_001.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/north-east/frame_002.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/north-east/frame_003.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/north-east/frame_004.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/north-east/frame_005.png"
+            ],
+            "north-66cc7b57": [
+              "a_man_in_grey_pants/animations/animation-599ae5a1/north-66cc7b57/frame_000.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/north-66cc7b57/frame_001.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/north-66cc7b57/frame_002.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/north-66cc7b57/frame_003.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/north-66cc7b57/frame_004.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/north-66cc7b57/frame_005.png"
+            ],
+            "north-west": [
+              "a_man_in_grey_pants/animations/animation-599ae5a1/north-west/frame_000.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/north-west/frame_001.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/north-west/frame_002.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/north-west/frame_003.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/north-west/frame_004.png",
+              "a_man_in_grey_pants/animations/animation-599ae5a1/north-west/frame_005.png"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "export_version": "3.0",
+  "export_date": "2026-05-22T19:58:07.799840"
+}
