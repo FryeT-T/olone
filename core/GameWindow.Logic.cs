@@ -6,6 +6,7 @@ using game.Utils;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.IO;
 using System.Windows.Forms;
 
 namespace game.core
@@ -30,7 +31,12 @@ namespace game.core
             switch (currentState)
             {
                 case GameState.MainMenu:
-                    if (InputManager.IsKeyDown(Keys.Enter)) InitializeLobby();
+                    UpdateMenuMusic();
+                    if (InputManager.IsKeyDown(Keys.Enter))
+                    {
+                        StopMenuMusic(); 
+                        InitializeLobby();
+                    }
                     if (InputManager.IsKeyDown(Keys.S)) LoadGameProgress();
                     break;
                 case GameState.Lobby:
@@ -51,6 +57,38 @@ namespace game.core
                     break;
             }
             Invalidate();
+        }
+        private void UpdateMenuMusic()
+        {
+            if (!isMusicPlaying)
+            {
+                try
+                {
+                    backgroundMusic.Open(new Uri(Path.Combine(Application.StartupPath, "songs/menu.mp3")));
+
+                    backgroundMusic.MediaEnded += (s, e) => {
+                        backgroundMusic.Position = TimeSpan.Zero;
+                        backgroundMusic.Play();
+                    };
+
+                    backgroundMusic.Volume = 0.3;
+                    backgroundMusic.Play();
+                    isMusicPlaying = true;
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Ошибка воспроизведения музыки: " + ex.Message);
+                }
+            }
+        }
+
+        private void StopMenuMusic()
+        {
+            if (isMusicPlaying)
+            {
+                backgroundMusic.Stop();
+                isMusicPlaying = false;
+            }
         }
 
         private void UpdateLobbyLogic()

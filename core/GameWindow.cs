@@ -1,4 +1,6 @@
-﻿using game.Entities;
+﻿using System.Windows.Media;
+using Color = System.Drawing.Color;
+using game.Entities;
 using game.Environment;
 using game.Weapons;
 using System.Collections.Generic;
@@ -14,6 +16,9 @@ namespace game.core
         public static int WindowWidth = 1920;
         public static int WindowHeight = 1080;
         public static bool isInventoryOpen = false;
+
+        private MediaPlayer backgroundMusic = new MediaPlayer();
+        private bool isMusicPlaying = false;
 
         private GameState currentState = GameState.MainMenu;
         private Player player;
